@@ -4,6 +4,6 @@ provider "aws" {
 
 resource "aws_s3_bucket" "bucket" {
   bucket = "migration-aws-test"
-  acl    = "public"
+  acl    = "private"
 }
 
